@@ -1,0 +1,31 @@
+html, #app, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+html, #app, body, main {
+	overflow-y: hidden;
+    overflow-x: hidden;
+}
+html {
+	/* gradient with primary color */
+	background-color: black;
+}
+
+:root {
+	/* blue color scheme */
+	--primary: #2196F3;
+	--secondary: #BBDEFB;
+	--accent: #0D47A1;
+	
+
+}
+
+h1, h2, p {
+	text-shadow: var(--accent) 2px 2px 1px;
+	color: var(--secondary);
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-bottom: 0.3rem;
+}
